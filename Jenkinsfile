@@ -13,7 +13,7 @@ pipeline
         {
             steps()
             {
-                git branch: 'master' url: 'https://github.com/rajaram512/TerraformCICDJenkins.git'
+                git branch: 'master', url: 'https://github.com/rajaram512/TerraformCICDJenkins.git'
             }
         }
 
