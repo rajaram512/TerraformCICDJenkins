@@ -9,7 +9,7 @@ terraform {
 
 provider "aws" {
   region  = "ap-south-1"
-  profile = "terraform"
+  //profile = "terraform"
 }
 
 resource "aws_instance" "server" {
@@ -21,6 +21,7 @@ key_name = "AmazonWebservices"
 
 
 tags = {
-    Name = "Terraform_CICD"
+    Name = "Terraform_CICD
+    "
 }
 }
