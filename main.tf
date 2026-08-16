@@ -21,7 +21,6 @@ key_name = "AmazonWebservices"
 
 
 tags = {
-    Name = "Terraform_CICD
-    "
+    Name = "Terraform_CICD"
 }
 }
